@@ -19,6 +19,17 @@ body {
   font-size: 16px;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 /* start */
 
 .main {
@@ -160,4 +171,41 @@ input:checked + .process .line .tooltips {
 .info {
   font-size: 12px;
   font-weight: bold;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+header ul {
+  list-style: none;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 0;
+}
+
+header ul li {
+  text-align: center;
+}
+
+header ul li a {
+  color: #fff;
+  padding: 5px 0;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+nav ul:hover > :not(:hover) {
+  opacity: 0.4;
+  transform: scale(0.9);
 }
